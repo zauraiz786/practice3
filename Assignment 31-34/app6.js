@@ -1,0 +1,1 @@
+document.write(`Current Date: ${Date()}<br>Elapsed milliseconds since January 1, 1970: ${Date.now()}<br>Elapsed minutes since January 1, 1970: ${(Date.now()/1000)/60}`);
