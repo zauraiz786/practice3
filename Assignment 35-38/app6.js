@@ -1,9 +1,9 @@
 const num = parseInt(prompt("Enter a number:"));
 if (!isNaN(num)) {
   const result = factorialIterative(num);
-  alert(`The factorial of ${num} is ${result}`);
+  console.log(`The factorial of ${num} is ${result}`);
 } else {
-  console.log("Invalid input. Please enter a valid number.");
+  alert("Invalid input. Please enter a valid number.");
 }
 function factorialIterative(n) {
   let result = 1;
